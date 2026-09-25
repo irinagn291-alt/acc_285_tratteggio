@@ -1,4 +1,4 @@
-<!-- gf-brief source=b12326b3c311630df1838d5c867ab1d94fa7ed1f8fedfd9e96a179c23ed69c87 written=2026-09-25T15:13:39+03:00 -->
+<!-- gf-brief source=b12326b3c311630df1838d5c867ab1d94fa7ed1f8fedfd9e96a179c23ed69c87 written=2026-09-25T15:17:04+03:00 -->
 # Tratteggio
 
 ## What it is
