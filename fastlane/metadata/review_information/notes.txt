@@ -1,0 +1,17 @@
+At cold launch the system may show the standard notification permission alert. There is no custom notifications usage-description string in the app’s property list. A camera usage string “This app does not use the camera.” is present in build settings, but the app never asks for camera access.
+
+There is no login or accounts, no in-app purchase, no user-generated content shared with others, no account deletion flow, and no App Tracking Transparency prompt.
+
+Tratteggio is a quiet art quiz for people who want to learn public-domain paintings from a crop. You save works from the National Gallery of Art, frame a magnified shard, then patch the missing maker or title word from hanging chips. Restored pieces and misses stay on this device.
+
+No credentials or demo account are needed. Cold launch shows a full-screen splash image, then either onboarding or the main quiz. If onboarding has not been finished, a three-page cover appears. Page 1 shows “Know it from a crop.” and “Finish the label from works you already saved, on this device.” with top-right “Skip” and bottom “Continue”. Page 2 shows “Frame, then patch.” and “Frame crops a saved work. One word is missing. Tap the chip that fills it.” with “Skip” and “Continue”. Page 3 shows “Restored stays here.” and “A miss stays reviewable. Saved keeps Restored pieces and misses.” with only “Continue”. “Skip” or finishing page 3 enters the main quiz titled “Patch the shard.” Tap “Explore”, then “Save” on a National Gallery of Art or local-shelf row (note “Saved.”). Close Explore to return to Quiz. Tap “Frame” when a shut work is available, then tap a word chip under “Tap a word.” to patch Maker or Title. Open “Saved” to browse Restored and Misses. Open “Settings” for Collection, Support (“Contact”, “Reset the crate”), Guide (“Frame then patch”), Undo, and “Re-run onboarding”.
+
+Works, patches, and misses stay on this device. Support is available in Settings via “Contact”, which opens the support page.
+
+Behaviour does not differ by region. The development region is English; numbers and dates follow the device locale. Appearance is forced light. Portrait only on iPhone and iPad. Minimum iOS 17.0.
+
+No licence or regulated-industry paperwork applies. Collection credits point to the National Gallery of Art and open-access images; public-domain paintings come from the National Gallery of Art.
+
+The app shows no health, medical, or product-health information. It is a personal log of Restored pieces and misses on this device and gives no recommendations.
+
+The app does not scan barcodes or QR codes.

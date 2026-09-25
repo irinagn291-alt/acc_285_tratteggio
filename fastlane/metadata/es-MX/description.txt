@@ -1,0 +1,14 @@
+Tratteggio es un quiz de arte tranquilo para quienes quieren aprender pinturas de dominio público a partir de un recorte. Guardas obras de la National Gallery of Art, enmarcas un fragmento ampliado y completas la palabra faltante de Autor o Título con fichas colgantes. Las piezas restauradas y los fallos se quedan en este dispositivo.
+
+• Guarda pinturas de la National Gallery of Art en una caja personal (obras guardadas)
+• Recurre a un estante local integrado cuando la búsqueda está vacía o falla
+• Enmarca un recorte ampliado y completa una palabra faltante de Autor o Título
+• Completa tocando la ficha correcta; se archiva como Restaurada
+• Fallas al tocar una ficha incorrecta; la ficha muestra MANCHA; el hueco sigue disponible para revisar
+• Deshace el parche o fallo más reciente
+• Consulta Restauradas y Fallos en Guardado
+• Introducción que explica recorte → marco → parche → Guardado
+• Ajustes con créditos, Contacto, restablecer la caja, repetir la introducción y la guía Enmarcar y luego parchear
+• Interfaz solo en modo claro; Quiz en vertical con Explorar / Guardado / Ajustes como hojas
+
+Las obras, parches y fallos se quedan en este dispositivo hasta que restablezcas la caja.

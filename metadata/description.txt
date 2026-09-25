@@ -1,0 +1,14 @@
+Tratteggio is a quiet art quiz for people who want to learn public-domain paintings from a crop. You save works from the National Gallery of Art, frame a magnified shard, then patch the missing maker or title word from hanging chips. Restored pieces and misses stay on this device.
+
+• Save National Gallery of Art paintings into a personal crate (Shut works)
+• Fall back to a built-in local shelf when search is empty or fails
+• Frame a magnified crop and punch one missing Maker or Title word
+• Patch by tapping the matching chip; file Restored
+• Miss by tapping a wrong chip; chip shows SMUDGE; hole stays reviewable
+• Undo the newest patch or miss
+• Browse Restored and Misses in Saved
+• Onboarding that explains crop → frame → patch → Saved
+• Settings credits, Contact, reset crate, re-run onboarding, and the Frame then patch guide
+• Light-only UI; portrait Quiz with Explore / Saved / Settings as sheets
+
+Works, patches, and misses stay on this device until you Reset the crate.

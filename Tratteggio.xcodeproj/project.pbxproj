@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067350BCFA684E6A094B4E7A /* LoupeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E5CA10C20B083590DC9D8 /* LoupeIntents.swift */; };
+		0705D32370710B5A4202E153 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A9621F5EE520605B3019 /* Token.swift */; };
+		194FAC4077748C3C3B3DC485 /* FrameCapsuleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E608797641F0EC7EA7BD987 /* FrameCapsuleStyle.swift */; };
+		1D2D82522493C2BE5A12924A /* Loupe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44474D6E1A26812795460A9 /* Loupe.swift */; };
+		20C5B50868071D9F1007957F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6297803ABBD2BFFB5FDCFE /* AppDelegate.swift */; };
+		460B62C974663D258D14E2E7 /* LoupeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341679E62A7A1333DE5DF1E /* LoupeStore.swift */; };
+		488D24AF8A81B1CE6843E3A4 /* Shard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D8FA19278EB0F9C5CA32 /* Shard.swift */; };
+		4A00CF7182E9D9DED5395FCF /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEADB061C31519CE48B7BD5 /* Work.swift */; };
+		506AFFF530AB5CA4B8DF740B /* TratteggioGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EE341557EF1A19F0DBF57 /* TratteggioGMT.swift */; };
+		57703FD1B324D792E41FD8FB /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689873BB6B3AE45B455FE741 /* FamilyInvariantTests.swift */; };
+		5A53B31BDA4964A6102D7D9A /* LoupeJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2672DF4460ECAAA0645E6 /* LoupeJobTests.swift */; };
+		5FA23C9604DD6D034DBACCCB /* MutePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C99D2B3461BA72A2687FB3 /* MutePage.swift */; };
+		6CDD1CEFB5C3BD6560F5E471 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88793410AF7DDAC3DFAAC69 /* QuizView.swift */; };
+		6F684C7A18E2EFBDD8BE7B81 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = BF07CCA0591BFCF0DCE55457 /* OneSignalInAppMessages */; };
+		74E69C482D9EBEB866A27012 /* Lemma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E25B937D792C5ED2E20204 /* Lemma.swift */; };
+		7EF2EF41AFD25E63E5774650 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70E183501325244EB4690D0 /* SavedView.swift */; };
+		81A94A8A6E2B9FCD7EB20134 /* TratteggioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E173EF78B8C98DD82EF09DAD /* TratteggioTests.swift */; };
+		8677FF439E014A9579F796E0 /* LoupeStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AEF9F034D0F831A2998A53 /* LoupeStoreTests.swift */; };
+		876BB85B9B91607FA5FA7654 /* PatchGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB954565BD591348162EF86 /* PatchGuide.swift */; };
+		8B8CDE0F9D33FA59AFFAE140 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9268F328A3F91FA519429 /* CatalogClient.swift */; };
+		9102264F623D08DB7AA07C23 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = E6C3EB4923AEFB713F3CF0A3 /* OneSignalFramework */; };
+		9757E48DC293786E57B1CA03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7505EFC759D2B95EF2918E90 /* ContentView.swift */; };
+		99933B9F159F3D9B161C0F63 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E68118D088BA8F5234CBD9B4 /* Alamofire */; };
+		9EBC4B69BC07F6196DF3A5CC /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A51A6245AF03FF8F77FE0DC /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FB4A13483E23FEA4A100D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C86636ACEAFB12E2AE97035 /* Assets.xcassets */; };
+		A81371B95CFC45E46FC2EF40 /* LoupeJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783EB5E55FA9DCFF717B36C /* LoupeJob.swift */; };
+		AB53D75C4B68F562930E33C4 /* SmudgeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193C2F2913A036F92D33666 /* SmudgeMark.swift */; };
+		B448A2DE310C063EDC0AFBB8 /* LoupeLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A223A590227956C959C3B02 /* LoupeLinksTests.swift */; };
+		BBAB19F28F1D39B80B0804E8 /* LoupePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C76E52F5B6675E364A47D /* LoupePad.swift */; };
+		BBF4FE122EB30A29B4A56517 /* LemmaCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF23BEB6076982C5503C40 /* LemmaCaption.swift */; };
+		C6801E535E90141D435B3556 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047CABEAD9EE2EAC3C556B3 /* ExploreView.swift */; };
+		CDA7FE1D9904B5D49B3D29C0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F07767DA2182171FBD659A /* SettingsView.swift */; };
+		D0120EDB1BE1588228305D75 /* LoupeDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402A7D15DE679FC19CAC722 /* LoupeDocument.swift */; };
+		D04885F3F05E4EBD0D09951E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C088B7C5193F7361873D270 /* NotificationService.swift */; };
+		D7369313AFBC460C7242E590 /* LoupeSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B12BC8C71E21280FDE3EB8 /* LoupeSeed.swift */; };
+		D7AD3A5703659DD82F9FE17D /* CrateShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C8B6946A068695866A495B /* CrateShelf.swift */; };
+		D8677987B1FA2A019A2B830C /* LoupeFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74CB4D8A978BB6361BA85F /* LoupeFoldTests.swift */; };
+		D9321DE8740346D5074ED693 /* PatchMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302D7AB8ED78B2E9B2846158 /* PatchMark.swift */; };
+		DF2C3F113769D5A03FE9FDB7 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35D58D39A2B6E0BAEA4C66 /* APIConfig.swift */; };
+		E07672A04FF8A30305758FF6 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 40D524EDE173E48DBC694083 /* OneSignalExtension */; };
+		E07D02D41A57D7AF5F9E7926 /* LoupeInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC17746CE9905BA3FA71AE /* LoupeInk.swift */; };
+		E122FDF695FA013DB6783739 /* LoupeVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E53369139E5CA6C63F1ECB5 /* LoupeVault.swift */; };
+		E42AAA64647173C622B3541C /* TratteggioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E361E0AD5A4CF8AD0F37E4 /* TratteggioApp.swift */; };
+		E75A2E20FE91407BC35D7E05 /* TokenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A467B7E4AC83A2A22B1A036 /* TokenCommand.swift */; };
+		EB11F687C768CFA74BEB04C0 /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00904D69C0BE57C641BEA4C /* CatalogClientTests.swift */; };
+		F323BBEB7EC737D82FFB9355 /* OnboardingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC12156C75A1C4D9BA62D65 /* OnboardingCover.swift */; };
+		F4DEFE515784919B01FDE154 /* ShardHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7AE6C312050D291DBD451 /* ShardHero.swift */; };
+		F821A23F2786EFCF23AC7386 /* LoupeCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD73C3E524AA338C1ED7B407 /* LoupeCopy.swift */; };
+		FC4E3DF2723150BEF88D3A61 /* LoupeChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895FB517D40D37EF9323A597 /* LoupeChrome.swift */; };
+		FD30200B837185E8EF16201F /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C4E3B969877909A613C83 /* Daykey.swift */; };
+		FF987C3BABA4449E278EA690 /* LoupeLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8830FF427BDA3F4518C66E52 /* LoupeLinks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5201D78882BA17AC15D7F475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93DAE91D9787DF4C68A4714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469D606824C599E897C8D604;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		ABB58D5C97A43577FE3CEDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93DAE91D9787DF4C68A4714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7885B51FA9B3195E7E75D9C;
+			remoteInfo = Tratteggio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEE74773F27DB99CC40C217F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9EBC4B69BC07F6196DF3A5CC /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A74CB4D8A978BB6361BA85F /* LoupeFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeFoldTests.swift; sourceTree = "<group>"; };
+		0C86636ACEAFB12E2AE97035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DB954565BD591348162EF86 /* PatchGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchGuide.swift; sourceTree = "<group>"; };
+		1193C2F2913A036F92D33666 /* SmudgeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmudgeMark.swift; sourceTree = "<group>"; };
+		124E5CA10C20B083590DC9D8 /* LoupeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeIntents.swift; sourceTree = "<group>"; };
+		1A56D8FA19278EB0F9C5CA32 /* Shard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shard.swift; sourceTree = "<group>"; };
+		1B21A9621F5EE520605B3019 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		22C99D2B3461BA72A2687FB3 /* MutePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutePage.swift; sourceTree = "<group>"; };
+		23E361E0AD5A4CF8AD0F37E4 /* TratteggioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratteggioApp.swift; sourceTree = "<group>"; };
+		29C8B6946A068695866A495B /* CrateShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateShelf.swift; sourceTree = "<group>"; };
+		302D7AB8ED78B2E9B2846158 /* PatchMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchMark.swift; sourceTree = "<group>"; };
+		4A51A6245AF03FF8F77FE0DC /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		540C4E3B969877909A613C83 /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		66B2672DF4460ECAAA0645E6 /* LoupeJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeJobTests.swift; sourceTree = "<group>"; };
+		689873BB6B3AE45B455FE741 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		6A223A590227956C959C3B02 /* LoupeLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeLinksTests.swift; sourceTree = "<group>"; };
+		6D6297803ABBD2BFFB5FDCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E608797641F0EC7EA7BD987 /* FrameCapsuleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCapsuleStyle.swift; sourceTree = "<group>"; };
+		705D9332117018247B5C5F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		73F07767DA2182171FBD659A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7505EFC759D2B95EF2918E90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A467B7E4AC83A2A22B1A036 /* TokenCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCommand.swift; sourceTree = "<group>"; };
+		7AC12156C75A1C4D9BA62D65 /* OnboardingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCover.swift; sourceTree = "<group>"; };
+		7C088B7C5193F7361873D270 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8783EB5E55FA9DCFF717B36C /* LoupeJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeJob.swift; sourceTree = "<group>"; };
+		8830FF427BDA3F4518C66E52 /* LoupeLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeLinks.swift; sourceTree = "<group>"; };
+		895FB517D40D37EF9323A597 /* LoupeChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeChrome.swift; sourceTree = "<group>"; };
+		8A2C76E52F5B6675E364A47D /* LoupePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupePad.swift; sourceTree = "<group>"; };
+		8C35D58D39A2B6E0BAEA4C66 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		8E53369139E5CA6C63F1ECB5 /* LoupeVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeVault.swift; sourceTree = "<group>"; };
+		90E25B937D792C5ED2E20204 /* Lemma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemma.swift; sourceTree = "<group>"; };
+		9341679E62A7A1333DE5DF1E /* LoupeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeStore.swift; sourceTree = "<group>"; };
+		93B12BC8C71E21280FDE3EB8 /* LoupeSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeSeed.swift; sourceTree = "<group>"; };
+		9AEADB061C31519CE48B7BD5 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		A00904D69C0BE57C641BEA4C /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		A44474D6E1A26812795460A9 /* Loupe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loupe.swift; sourceTree = "<group>"; };
+		A72EE341557EF1A19F0DBF57 /* TratteggioGMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratteggioGMT.swift; sourceTree = "<group>"; };
+		B402A7D15DE679FC19CAC722 /* LoupeDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeDocument.swift; sourceTree = "<group>"; };
+		B5EC17746CE9905BA3FA71AE /* LoupeInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeInk.swift; sourceTree = "<group>"; };
+		B7B9268F328A3F91FA519429 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		C5BF23BEB6076982C5503C40 /* LemmaCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemmaCaption.swift; sourceTree = "<group>"; };
+		C70E183501325244EB4690D0 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		C9AEF9F034D0F831A2998A53 /* LoupeStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeStoreTests.swift; sourceTree = "<group>"; };
+		CD73C3E524AA338C1ED7B407 /* LoupeCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoupeCopy.swift; sourceTree = "<group>"; };
+		CEF7AE6C312050D291DBD451 /* ShardHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShardHero.swift; sourceTree = "<group>"; };
+		D7BD7DD84B3758B1FCBEF220 /* TratteggioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TratteggioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88793410AF7DDAC3DFAAC69 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		E047CABEAD9EE2EAC3C556B3 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		E173EF78B8C98DD82EF09DAD /* TratteggioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TratteggioTests.swift; sourceTree = "<group>"; };
+		E53060E3E54FBA3F050AE3D3 /* Tratteggio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tratteggio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202F0CD54310E8ECB50B995F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07672A04FF8A30305758FF6 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9566BD7435AEC2708B0A6EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99933B9F159F3D9B161C0F63 /* Alamofire in Frameworks */,
+				9102264F623D08DB7AA07C23 /* OneSignalFramework in Frameworks */,
+				6F684C7A18E2EFBDD8BE7B81 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DCEDDB70B72B98708BCCFCB /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7C088B7C5193F7361873D270 /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		4AA343218857F8493776BCB2 /* Lemma */ = {
+			isa = PBXGroup;
+			children = (
+				90E25B937D792C5ED2E20204 /* Lemma.swift */,
+				C5BF23BEB6076982C5503C40 /* LemmaCaption.swift */,
+			);
+			path = Lemma;
+			sourceTree = "<group>";
+		};
+		54531093625B9BECBE8258F1 /* TratteggioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00904D69C0BE57C641BEA4C /* CatalogClientTests.swift */,
+				689873BB6B3AE45B455FE741 /* FamilyInvariantTests.swift */,
+				0A74CB4D8A978BB6361BA85F /* LoupeFoldTests.swift */,
+				66B2672DF4460ECAAA0645E6 /* LoupeJobTests.swift */,
+				6A223A590227956C959C3B02 /* LoupeLinksTests.swift */,
+				C9AEF9F034D0F831A2998A53 /* LoupeStoreTests.swift */,
+				A72EE341557EF1A19F0DBF57 /* TratteggioGMT.swift */,
+				E173EF78B8C98DD82EF09DAD /* TratteggioTests.swift */,
+			);
+			path = TratteggioTests;
+			sourceTree = "<group>";
+		};
+		5FE221909AFF812DF395F015 /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				1B21A9621F5EE520605B3019 /* Token.swift */,
+				7A467B7E4AC83A2A22B1A036 /* TokenCommand.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		6872F713DD27E24520C7AC1A /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				B7B9268F328A3F91FA519429 /* CatalogClient.swift */,
+				29C8B6946A068695866A495B /* CrateShelf.swift */,
+				E047CABEAD9EE2EAC3C556B3 /* ExploreView.swift */,
+				C70E183501325244EB4690D0 /* SavedView.swift */,
+				9AEADB061C31519CE48B7BD5 /* Work.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		740AF71D83D1171CE3D3ABC1 /* SmudgeMark */ = {
+			isa = PBXGroup;
+			children = (
+				1193C2F2913A036F92D33666 /* SmudgeMark.swift */,
+			);
+			path = SmudgeMark;
+			sourceTree = "<group>";
+		};
+		7633FA66A8DCEF9BAFBE714B /* Loupe */ = {
+			isa = PBXGroup;
+			children = (
+				540C4E3B969877909A613C83 /* Daykey.swift */,
+				6E608797641F0EC7EA7BD987 /* FrameCapsuleStyle.swift */,
+				A44474D6E1A26812795460A9 /* Loupe.swift */,
+				895FB517D40D37EF9323A597 /* LoupeChrome.swift */,
+				CD73C3E524AA338C1ED7B407 /* LoupeCopy.swift */,
+				B402A7D15DE679FC19CAC722 /* LoupeDocument.swift */,
+				B5EC17746CE9905BA3FA71AE /* LoupeInk.swift */,
+				124E5CA10C20B083590DC9D8 /* LoupeIntents.swift */,
+				8783EB5E55FA9DCFF717B36C /* LoupeJob.swift */,
+				8830FF427BDA3F4518C66E52 /* LoupeLinks.swift */,
+				8A2C76E52F5B6675E364A47D /* LoupePad.swift */,
+				93B12BC8C71E21280FDE3EB8 /* LoupeSeed.swift */,
+				9341679E62A7A1333DE5DF1E /* LoupeStore.swift */,
+				8E53369139E5CA6C63F1ECB5 /* LoupeVault.swift */,
+				22C99D2B3461BA72A2687FB3 /* MutePage.swift */,
+				7AC12156C75A1C4D9BA62D65 /* OnboardingCover.swift */,
+				0DB954565BD591348162EF86 /* PatchGuide.swift */,
+				D88793410AF7DDAC3DFAAC69 /* QuizView.swift */,
+				73F07767DA2182171FBD659A /* SettingsView.swift */,
+			);
+			path = Loupe;
+			sourceTree = "<group>";
+		};
+		7F41A474C2E54726617D93BF /* PatchMark */ = {
+			isa = PBXGroup;
+			children = (
+				302D7AB8ED78B2E9B2846158 /* PatchMark.swift */,
+			);
+			path = PatchMark;
+			sourceTree = "<group>";
+		};
+		95119CE031D9D2E601EC22AC = {
+			isa = PBXGroup;
+			children = (
+				2DCEDDB70B72B98708BCCFCB /* OneSignalNotificationServiceExtension */,
+				D3430A24CC2680FFE23022E4 /* Tratteggio */,
+				54531093625B9BECBE8258F1 /* TratteggioTests */,
+				97CF63F9031A68A146BD4EB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97CF63F9031A68A146BD4EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A51A6245AF03FF8F77FE0DC /* OneSignalNotificationServiceExtension.appex */,
+				E53060E3E54FBA3F050AE3D3 /* Tratteggio.app */,
+				D7BD7DD84B3758B1FCBEF220 /* TratteggioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA0A7CAAD122170FD68D344 /* Shard */ = {
+			isa = PBXGroup;
+			children = (
+				1A56D8FA19278EB0F9C5CA32 /* Shard.swift */,
+				CEF7AE6C312050D291DBD451 /* ShardHero.swift */,
+			);
+			path = Shard;
+			sourceTree = "<group>";
+		};
+		D3430A24CC2680FFE23022E4 /* Tratteggio */ = {
+			isa = PBXGroup;
+			children = (
+				8C35D58D39A2B6E0BAEA4C66 /* APIConfig.swift */,
+				6D6297803ABBD2BFFB5FDCFE /* AppDelegate.swift */,
+				0C86636ACEAFB12E2AE97035 /* Assets.xcassets */,
+				7505EFC759D2B95EF2918E90 /* ContentView.swift */,
+				705D9332117018247B5C5F2B /* Info.plist */,
+				23E361E0AD5A4CF8AD0F37E4 /* TratteggioApp.swift */,
+				4AA343218857F8493776BCB2 /* Lemma */,
+				7633FA66A8DCEF9BAFBE714B /* Loupe */,
+				7F41A474C2E54726617D93BF /* PatchMark */,
+				9FA0A7CAAD122170FD68D344 /* Shard */,
+				740AF71D83D1171CE3D3ABC1 /* SmudgeMark */,
+				5FE221909AFF812DF395F015 /* Token */,
+				6872F713DD27E24520C7AC1A /* Work */,
+			);
+			path = Tratteggio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8D8C430CF215FF38C2C02B /* TratteggioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57D3ED45313379E26F78AB7 /* Build configuration list for PBXNativeTarget "TratteggioTests" */;
+			buildPhases = (
+				38EEC1D79C30CCC4A0AF1393 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8999DAE35AC05CDD3CECA664 /* PBXTargetDependency */,
+			);
+			name = TratteggioTests;
+			packageProductDependencies = (
+			);
+			productName = TratteggioTests;
+			productReference = D7BD7DD84B3758B1FCBEF220 /* TratteggioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		469D606824C599E897C8D604 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE54D25C7DC536839D7B0CDE /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				F41BABB5FF94CF97E694AAD9 /* Sources */,
+				202F0CD54310E8ECB50B995F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				40D524EDE173E48DBC694083 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 4A51A6245AF03FF8F77FE0DC /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A7885B51FA9B3195E7E75D9C /* Tratteggio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6786C976134316095538EA4A /* Build configuration list for PBXNativeTarget "Tratteggio" */;
+			buildPhases = (
+				595B95642D9CB72EB11ABBC9 /* Sources */,
+				E2F7F789A9C0FFC6317C5B55 /* Resources */,
+				9566BD7435AEC2708B0A6EDE /* Frameworks */,
+				FEE74773F27DB99CC40C217F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E43FC4498F0056DBAAF23E /* PBXTargetDependency */,
+			);
+			name = Tratteggio;
+			packageProductDependencies = (
+				E68118D088BA8F5234CBD9B4 /* Alamofire */,
+				E6C3EB4923AEFB713F3CF0A3 /* OneSignalFramework */,
+				BF07CCA0591BFCF0DCE55457 /* OneSignalInAppMessages */,
+			);
+			productName = Tratteggio;
+			productReference = E53060E3E54FBA3F050AE3D3 /* Tratteggio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93DAE91D9787DF4C68A4714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E8D8C430CF215FF38C2C02B = {
+						ProvisioningStyle = Automatic;
+					};
+					469D606824C599E897C8D604 = {
+						ProvisioningStyle = Automatic;
+					};
+					A7885B51FA9B3195E7E75D9C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39A68B643C005F52E7577731 /* Build configuration list for PBXProject "Tratteggio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 95119CE031D9D2E601EC22AC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DFE19525898C98BB645D50AF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				10BDAB22D520F20CF1000B3A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97CF63F9031A68A146BD4EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7885B51FA9B3195E7E75D9C /* Tratteggio */,
+				0E8D8C430CF215FF38C2C02B /* TratteggioTests */,
+				469D606824C599E897C8D604 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F7F789A9C0FFC6317C5B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB4A13483E23FEA4A100D5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EEC1D79C30CCC4A0AF1393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB11F687C768CFA74BEB04C0 /* CatalogClientTests.swift in Sources */,
+				57703FD1B324D792E41FD8FB /* FamilyInvariantTests.swift in Sources */,
+				D8677987B1FA2A019A2B830C /* LoupeFoldTests.swift in Sources */,
+				5A53B31BDA4964A6102D7D9A /* LoupeJobTests.swift in Sources */,
+				B448A2DE310C063EDC0AFBB8 /* LoupeLinksTests.swift in Sources */,
+				8677FF439E014A9579F796E0 /* LoupeStoreTests.swift in Sources */,
+				506AFFF530AB5CA4B8DF740B /* TratteggioGMT.swift in Sources */,
+				81A94A8A6E2B9FCD7EB20134 /* TratteggioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595B95642D9CB72EB11ABBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2C3F113769D5A03FE9FDB7 /* APIConfig.swift in Sources */,
+				20C5B50868071D9F1007957F /* AppDelegate.swift in Sources */,
+				8B8CDE0F9D33FA59AFFAE140 /* CatalogClient.swift in Sources */,
+				9757E48DC293786E57B1CA03 /* ContentView.swift in Sources */,
+				D7AD3A5703659DD82F9FE17D /* CrateShelf.swift in Sources */,
+				FD30200B837185E8EF16201F /* Daykey.swift in Sources */,
+				C6801E535E90141D435B3556 /* ExploreView.swift in Sources */,
+				194FAC4077748C3C3B3DC485 /* FrameCapsuleStyle.swift in Sources */,
+				74E69C482D9EBEB866A27012 /* Lemma.swift in Sources */,
+				BBF4FE122EB30A29B4A56517 /* LemmaCaption.swift in Sources */,
+				1D2D82522493C2BE5A12924A /* Loupe.swift in Sources */,
+				FC4E3DF2723150BEF88D3A61 /* LoupeChrome.swift in Sources */,
+				F821A23F2786EFCF23AC7386 /* LoupeCopy.swift in Sources */,
+				D0120EDB1BE1588228305D75 /* LoupeDocument.swift in Sources */,
+				E07D02D41A57D7AF5F9E7926 /* LoupeInk.swift in Sources */,
+				067350BCFA684E6A094B4E7A /* LoupeIntents.swift in Sources */,
+				A81371B95CFC45E46FC2EF40 /* LoupeJob.swift in Sources */,
+				FF987C3BABA4449E278EA690 /* LoupeLinks.swift in Sources */,
+				BBAB19F28F1D39B80B0804E8 /* LoupePad.swift in Sources */,
+				D7369313AFBC460C7242E590 /* LoupeSeed.swift in Sources */,
+				460B62C974663D258D14E2E7 /* LoupeStore.swift in Sources */,
+				E122FDF695FA013DB6783739 /* LoupeVault.swift in Sources */,
+				5FA23C9604DD6D034DBACCCB /* MutePage.swift in Sources */,
+				F323BBEB7EC737D82FFB9355 /* OnboardingCover.swift in Sources */,
+				876BB85B9B91607FA5FA7654 /* PatchGuide.swift in Sources */,
+				D9321DE8740346D5074ED693 /* PatchMark.swift in Sources */,
+				6CDD1CEFB5C3BD6560F5E471 /* QuizView.swift in Sources */,
+				7EF2EF41AFD25E63E5774650 /* SavedView.swift in Sources */,
+				CDA7FE1D9904B5D49B3D29C0 /* SettingsView.swift in Sources */,
+				488D24AF8A81B1CE6843E3A4 /* Shard.swift in Sources */,
+				F4DEFE515784919B01FDE154 /* ShardHero.swift in Sources */,
+				AB53D75C4B68F562930E33C4 /* SmudgeMark.swift in Sources */,
+				0705D32370710B5A4202E153 /* Token.swift in Sources */,
+				E75A2E20FE91407BC35D7E05 /* TokenCommand.swift in Sources */,
+				E42AAA64647173C622B3541C /* TratteggioApp.swift in Sources */,
+				4A00CF7182E9D9DED5395FCF /* Work.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41BABB5FF94CF97E694AAD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04885F3F05E4EBD0D09951E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E43FC4498F0056DBAAF23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469D606824C599E897C8D604 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 5201D78882BA17AC15D7F475 /* PBXContainerItemProxy */;
+		};
+		8999DAE35AC05CDD3CECA664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7885B51FA9B3195E7E75D9C /* Tratteggio */;
+			targetProxy = ABB58D5C97A43577FE3CEDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		164A62675BC8097CF91FE6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22640BBA828E6A02F90FB332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		340769BB87F405690AE2B5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Tratteggio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tratteggio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tratteggio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe;
+				PRODUCT_NAME = Tratteggio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CD0000A2C85AC9CF49A5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Tratteggio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tratteggio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tratteggio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe;
+				PRODUCT_NAME = Tratteggio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_ASSET_SYMBOL_EXTENSIONS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65946DAB3522BD7BA30A6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		97C9F45E470E0C69B72005D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tratteggio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tratteggio";
+			};
+			name = Debug;
+		};
+		CBA40B8E47DF47FABE427838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tratteggio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tratteggio";
+			};
+			name = Release;
+		};
+		F0B14F5359241A908434B521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A68B643C005F52E7577731 /* Build configuration list for PBXProject "Tratteggio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B14F5359241A908434B521 /* Debug */,
+				65946DAB3522BD7BA30A6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6786C976134316095538EA4A /* Build configuration list for PBXNativeTarget "Tratteggio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD0000A2C85AC9CF49A5E75 /* Debug */,
+				340769BB87F405690AE2B5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE54D25C7DC536839D7B0CDE /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22640BBA828E6A02F90FB332 /* Debug */,
+				164A62675BC8097CF91FE6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E57D3ED45313379E26F78AB7 /* Build configuration list for PBXNativeTarget "TratteggioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9F45E470E0C69B72005D4 /* Debug */,
+				CBA40B8E47DF47FABE427838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10BDAB22D520F20CF1000B3A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		DFE19525898C98BB645D50AF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40D524EDE173E48DBC694083 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDAB22D520F20CF1000B3A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		BF07CCA0591BFCF0DCE55457 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDAB22D520F20CF1000B3A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		E68118D088BA8F5234CBD9B4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFE19525898C98BB645D50AF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E6C3EB4923AEFB713F3CF0A3 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10BDAB22D520F20CF1000B3A /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B93DAE91D9787DF4C68A4714 /* Project object */;
+}
