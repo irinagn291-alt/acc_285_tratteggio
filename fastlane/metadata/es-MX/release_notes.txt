@@ -1,5 +1,3 @@
-Lanzamiento inicial de Tratteggio.
-
-Guarda obras de la National Gallery of Art en una caja personal, enmarca un recorte ampliado y completa la palabra faltante de Autor o Título con fichas colgantes. Las piezas restauradas y los fallos se quedan en este dispositivo.
-
-Incluye Explorar con búsqueda y un estante local, Guardado para Restauradas y Fallos, Ajustes con créditos de la colección, Contacto, Restablecer la caja, Repetir la introducción y la guía Enmarcar y luego parchear. Deshacer elimina el parche o fallo más reciente.
+Version 1.2 keeps Tratteggio polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app

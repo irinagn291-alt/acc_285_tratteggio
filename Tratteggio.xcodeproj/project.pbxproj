@@ -518,7 +518,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
@@ -528,7 +528,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = OneSignalNotificationServiceExtension;
 				SDKROOT = iphoneos;
@@ -544,7 +544,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
@@ -554,7 +554,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = OneSignalNotificationServiceExtension;
 				SDKROOT = iphoneos;
@@ -574,7 +574,7 @@
 				CODE_SIGN_ENTITLEMENTS = Support/Tratteggio.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tratteggio/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tratteggio;
@@ -590,7 +590,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe;
 				PRODUCT_NAME = Tratteggio;
 				SDKROOT = iphoneos;
@@ -611,7 +611,7 @@
 				CODE_SIGN_ENTITLEMENTS = Support/Tratteggio.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tratteggio/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tratteggio;
@@ -627,7 +627,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tratteggio.loupe;
 				PRODUCT_NAME = Tratteggio;
 				SDKROOT = iphoneos;
@@ -857,7 +857,7 @@
 			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
 			requirement = {
 				kind = revision;
-				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+				revision = 8a974e1e0961fe3134df593e2d7d67db3d4c2ad3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

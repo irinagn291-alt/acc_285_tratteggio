@@ -1,5 +1,3 @@
-Initial release of Tratteggio.
-
-Save works from the National Gallery of Art into a personal crate, frame a magnified crop and patch the missing Maker or Title word from hanging chips. Restored pieces and misses stay on this device.
-
-Includes Explore with search and a local shelf, Saved for Restored and Misses, Settings with Collection credits, Contact, Reset the crate, Re-run onboarding and the Frame then patch guide. Undo drops the newest patch or miss.
+Version 1.2 keeps Tratteggio polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app
